@@ -26,6 +26,7 @@
 CREATE TABLE `comments` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `MUSIC_ID` varchar(11) DEFAULT NULL,
+  `MUSIC_NAME` varchar(45) DEFAULT NULL,
   `COMMENTS` varchar (200) DEFAULT NULL,
   `DETAILS` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -36,12 +37,14 @@ CREATE TABLE `musics` (
   `MUSIC_ID` varchar(11) DEFAULT NULL,
   `MUSIC_NAME` varchar(45) DEFAULT NULL,
   `ALBUM_ID` varchar(11) DEFAULT NULL,
+  `ALBUM_NAME` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 CREATE TABLE `albums` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `ALBUM_ID` varchar(11) DEFAULT NULL,
+  `ALBUM_NAME` varchar(45) DEFAULT NULL,
   `ARTIST_ID` varchar(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;

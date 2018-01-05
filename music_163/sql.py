@@ -20,18 +20,18 @@ def insert_comments(music_id, comments, detail, connection0):
 
 
 # 保存音乐
-def insert_music(music_id, music_name, album_id):
+def insert_music(music_id, music_name, album_id, album_name):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `musics` (`MUSIC_ID`, `MUSIC_NAME`, `ALBUM_ID`) VALUES (%s, %s, %s)"
-        cursor.execute(sql, (music_id, music_name, album_id))
+        sql = "INSERT INTO `musics` (`MUSIC_ID`, `MUSIC_NAME`, `ALBUM_ID`, `ALBUM_NAME`) VALUES (%s, %s, %s, %s)"
+        cursor.execute(sql, (music_id, music_name, album_id, album_name))
     connection.commit()
 
 
 # 保存专辑
-def insert_album(album_id, artist_id):
+def insert_album(album_id, artist_id, album_name):
     with connection.cursor() as cursor:
-        sql = "INSERT INTO `albums` (`ALBUM_ID`, `ARTIST_ID`) VALUES (%s, %s)"
-        cursor.execute(sql, (album_id, artist_id))
+        sql = "INSERT INTO `albums` (`ALBUM_ID`, `ALBUM_NAME`, `ARTIST_ID`) VALUES (%s, %s, %s)"
+        cursor.execute(sql, (album_id, album_name, artist_id))
     connection.commit()
 
 

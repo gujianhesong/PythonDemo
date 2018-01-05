@@ -1,11 +1,12 @@
 """
 根据专辑 ID 获取到所有的音乐 ID
 """
+from unittest.test.test_result import __init__
+
 import requests
 from bs4 import BeautifulSoup
 import time
 import sql
-
 
 class Music(object):
     headers = {
@@ -32,6 +33,7 @@ class Music(object):
         soup = BeautifulSoup(r.content.decode(), 'html.parser')
         body = soup.body
 
+        album_name = body.find('div', attrs={'class': 'tit'}).find_all('h2').text
         musics = body.find('ul', attrs={'class': 'f-hide'}).find_all('li')  # 获取专辑的所有音乐
 
         music_list = []
@@ -48,7 +50,7 @@ class Music(object):
             music = music.find('a')
             music_id = music['href'].replace('/song?id=', '')
             music_name = music.getText()
-            sql.insert_music(music_id, music_name, album_id)
+            sql.insert_music(music_id, music_name, album_id, album_name)
 
 
 if __name__ == '__main__':

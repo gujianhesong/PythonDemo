@@ -37,30 +37,12 @@ class Album(object):
         print('artist_id：%s，artist_name: %s, 专辑数：%d' %(artist_id, artist_name, len(albums)))
 
         for album in albums:
+            album_name = album.text
             albume_id = album['href'].replace('/album?id=', '')
-            sql.insert_album(albume_id, artist_id)
+            sql.insert_album(albume_id, artist_id, album_name)
 
-
-import time
-import _thread
-
-def print_time(thread_name, delay):
-    count = 0
-    while count < 5:
-        time.sleep(delay)
-        count += 1
-        print('%s : %s' % (thread_name, time.ctime(time.time())))
 
 if __name__ == '__main__':
-    # try:
-    #     _thread.start_new_thread(print_time, ('thread_1', 2))
-    #     _thread.start_new_thread(print_time, ('thread_2', 4))
-    # except Exception as e:
-    #     print('无法启动线程')
-    # while 1:
-    #     pass
-
-
     artists = sql.get_all_artist()
     my_album = Album()
     for i in artists:
