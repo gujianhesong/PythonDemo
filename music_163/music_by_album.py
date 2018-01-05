@@ -33,7 +33,7 @@ class Music(object):
         soup = BeautifulSoup(r.content.decode(), 'html.parser')
         body = soup.body
 
-        album_name = body.find('div', attrs={'class': 'tit'}).find_all('h2').text
+        album_name = body.find('div', attrs={'class': 'tit'}).find('h2').text
         musics = body.find('ul', attrs={'class': 'f-hide'}).find_all('li')  # 获取专辑的所有音乐
 
         music_list = []
@@ -43,7 +43,7 @@ class Music(object):
             music_name = music.getText()
             music_list.append(music_name)
 
-        print(album_id)
+        print("专辑id：%s, 专辑名：%s" % (album_id, album_name))
         print(music_list)
 
         for music in musics:
