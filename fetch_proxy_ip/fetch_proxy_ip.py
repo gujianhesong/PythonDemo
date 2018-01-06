@@ -71,6 +71,16 @@ def filterValidProxyIp(list):
             print('%s 无效' % ip)
     return validList
 
+# 验证ip是否有效
+def validateIp(proxy):
+    proxy_temp = {"http": proxy}
+    url = "http://ip.chinaz.com/getip.aspx"
+    try:
+        response = requests.get(url, proxies=proxy_temp, timeout=5)
+        return True
+    except Exception as e:
+        return False
+
 # 获取可用的代理ip列表
 def getProxyIp():
 
@@ -82,9 +92,13 @@ def getProxyIp():
     for index in range(startPage, endPage):
         print('查找第 %s 页的ip信息' % index)
 
+        # 请求url，获取网页数据
         content = _requestUrl(index)
+        # 解析网页数据，获取ip和端口信息
         list = parseProxyIpList(content)
+        # 过滤有效的ip信息
         list = filterValidProxyIp(list)
+        # 添加到有效列表中
         allProxys.append(list)
 
         print('第 %s 页的有效ip有以下：' % index)
@@ -94,16 +108,6 @@ def getProxyIp():
     print(allProxys)
 
     return allProxys
-
-def validateIp(proxy):
-    proxy_temp = {"http": proxy}
-    url = "http://ip.chinaz.com/getip.aspx"
-    try:
-        response = requests.get(url, proxies=proxy_temp, timeout=5)
-        return True
-    except Exception as e:
-        return False
-
 
 if __name__ == '__main__':
     proxies = getProxyIp()
