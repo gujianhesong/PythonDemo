@@ -1,0 +1,28 @@
+<resources>
+    <string name="tip_open">Please find and Open it</string>
+    <string name="tip_open_float">Please find float and Open it</string>
+    <string name="str_avoid_be_killed">You should open the notification permission！</string>
+    <string name="tip_open_accessability">You should open the accessability permission！</string>
+    <string name="tip_notification_access">Notification access</string>
+    <string name="grant">Grant</string>
+    <string name="tip_open_oppo_float">Please click Floating window management, find and enable it</string>
+    <string name="tip_open_oppo_boot">Please click Manage autorun apps, find and enable it</string>
+    <string name="tip_open_meizu_float">Please find and activate floating window or pop-up notification</string>
+    <string name="tip_open_meizu_boot">Enable Auto launch</string>
+    <string name="tip_permission_not_open">Grant failed</string>
+    <string name="tip_open_common_protect">To prevent Touch Master being stopped, please find me, press and pull down to
+        lock it.
+    </string>
+    <string name="tip_open_samsung_protect">To prevent Touch Master being stopped, please find me and lock it.</string>
+    <string name="tip_open_xiaomi_boot">Please click Autostart, find and enable me</string>
+    <string name="tip_open_xiaomi_boot_v5">Please enable Trusted app and Auto launch to ensure stable running.</string>
+    <string name="tip_open_samsung_boot">Please click RAM, AUTO RUN APPS, find Touch Master and enable it.</string>
+    <string name="grant_permission">The feature needs permission, please grant it.\n\n · %s</string>
+    <string name="tip_float_permission">Draw over other apps</string>
+    <string name="tip_write_settings_permission">Write Settings</string>
+    <string name="off">Close</string>
+    <string name="permission_guide_message">Please find and open %s。</string>
+    <string name="tip_permission_title">Permission request</string>
+    <string name="tip_open_permission">Please open permission</string>
+
+</resources>

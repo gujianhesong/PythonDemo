@@ -1,0 +1,1510 @@
+2018-04-27 11:41:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.uc.browser.en> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.ksmobile.cb> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.browser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.mgeek.TunnyBrowser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:52 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.firefox> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.mini.native> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 11:41:53 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.UCMobile.intl.betatest> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 54, in parse_item2
+    item[key] = value[0].strip() if len(value) == 1 else ('' if len(value) == 0 else value)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\item.py", line 66, in __setitem__
+    (self.__class__.__name__, key))
+KeyError: 'AppCrawlerItem does not support field: app_name'
+2018-04-27 12:21:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.uc.browser.en> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.mgeek.TunnyBrowser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.firefox> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.mini.native> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.UCMobile.intl.betatest> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.browser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:21:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.ksmobile.cb> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 71, in parse_app
+    self.driver.get(url)
+AttributeError: 'AppSpider' object has no attribute 'driver'
+2018-04-27 12:22:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.uc.browser.en> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:06 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.browser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.ksmobile.cb> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.firefox> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.UCMobile.intl.betatest> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.mini.native> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:22:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.mgeek.TunnyBrowser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 86, in parse_app
+    response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.uc.browser.en> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.browser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.firefox> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.mgeek.TunnyBrowser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.opera.mini.native> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.ksmobile.cb> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:23:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.UCMobile.intl.betatest> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 85, in parse_app
+    rating['five_star'] = response.xpath('//*[@id="fcxH9b"]//div[@class="mMF0fd"][1]/span[@class="UfW5d"]/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.firefox> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.mgeek.TunnyBrowser> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.cleanmaster.mguard> (referer: https://play.google.com/store/apps/details?id=com.ksmobile.cb)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=flashlight.enlight> (referer: https://play.google.com/store/apps/details?id=com.ksmobile.cb)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.UCMobile.intl.betatest> (referer: https://play.google.com/store/apps/details?id=com.UCMobile.intl)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.cmcm.freevpn> (referer: https://play.google.com/store/apps/details?id=com.ksmobile.cb)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.cleanmaster.security> (referer: https://play.google.com/store/apps/details?id=com.ksmobile.cb)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=org.mozilla.focus> (referer: https://play.google.com/store/apps/details?id=com.opera.mini.native)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.lenovo.anyshare.gps> (referer: https://play.google.com/store/apps/details?id=com.cmcm.transfer)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=it.medieval.blueftp> (referer: https://play.google.com/store/apps/details?id=com.cmcm.transfer)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.fw.appshare> (referer: https://play.google.com/store/apps/details?id=com.cmcm.transfer)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.estmob.android.sendanywhere> (referer: https://play.google.com/store/apps/details?id=cn.xender)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.sand.airdroid> (referer: https://play.google.com/store/apps/details?id=cn.xender)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.dewmobile.kuaiya.play> (referer: https://play.google.com/store/apps/details?id=cn.xender)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.numler.app> (referer: https://play.google.com/store/apps/details?id=com.liveqos.superbeam.plugin.contacts)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.eyecon.global> (referer: https://play.google.com/store/apps/details?id=com.liveqos.superbeam.plugin.contacts)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.caller.notes> (referer: https://play.google.com/store/apps/details?id=com.liveqos.superbeam.plugin.contacts)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.jaredco.calleridannounce> (referer: https://play.google.com/store/apps/details?id=com.majedev.superbeampro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.sharkid> (referer: https://play.google.com/store/apps/details?id=com.liveqos.superbeam.plugin.contacts)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.socketwire.reverselookuppro> (referer: https://play.google.com/store/apps/details?id=com.majedev.superbeampro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 131, in parse_app
+    item['dev_name'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.nearbyplaces.main> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.ice.EmergencyHelp.gen> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=mobi.drupe.app> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.CreativeIdeas.gen> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.asus.contacts> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.alwayspositive.gen> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.makeevapps.contactswidget> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full> (referer: https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.syncme.syncmeapp> (referer: https://play.google.com/store/apps/details?id=com.SpeedDial.OneTouch)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.dropbox.android> (referer: https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.androirc> (referer: https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.kingsoft.email> (referer: https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=net.daum.android.map> (referer: https://play.google.com/store/apps/details?id=com.pinlocations.gen)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=kupchinskii.ruslan.gpsup> (referer: https://play.google.com/store/apps/details?id=com.pinlocations.gen)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=psyberia.alpinequest.free> (referer: https://play.google.com/store/apps/details?id=com.pinlocations.gen)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.alphainventor.filemanager> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.solidexplorer.plugins.ftpserver> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.solidexplorer.plugins.mega> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.offline.navigationmap.customroute.earth.free> (referer: https://play.google.com/store/apps/details?id=com.pinlocations.gen)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.solidexplorer> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.solidexplorer.plugins.otg> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.lonelycatgames.Xplore> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.solidexplorer.unlocker> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.asus.filemanager> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.zakorchook.boomerang> (referer: https://play.google.com/store/apps/details?id=com.zakorchook.susanin)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=pl.mkexplorer.kormateusz> (referer: https://play.google.com/store/apps/details?id=pl.solidexplorer2)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.zakorchook.susaninvip> (referer: https://play.google.com/store/apps/details?id=com.zakorchook.susanin)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 130, in parse_app
+    0]
+IndexError: list index out of range
+2018-04-27 12:24:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=ru.yandex.yandexnavi> (referer: https://play.google.com/store/apps/details?id=com.zakorchook.susanin)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile> (referer: https://play.google.com/store/apps/details?id=com.zakorchook.susanin)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.metago.beta_astro> (referer: https://play.google.com/store/apps/details?id=com.metago.astro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.gregacucnik.fishingpoints> (referer: https://play.google.com/store/apps/details?id=com.zakorchook.susanin)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.rhmsoft.fm.hd> (referer: https://play.google.com/store/apps/details?id=com.metago.astro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.rhmsoft.fm> (referer: https://play.google.com/store/apps/details?id=com.metago.astro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.my.hc.rpg.kingdom.simulator> (referer: https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.gpsvoice.directionroute.navigationplanner.map> (referer: https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.liveview.streetmap.makeroute.earth.tracking.free> (referer: https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.my.hawk.air.shooter> (referer: https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.bodunov.GalileoPro> (referer: https://play.google.com/store/apps/details?id=com.bodunov.galileo)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 127, in parse_app
+    item['developer'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][8]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=at.xylem.mapin> (referer: https://play.google.com/store/apps/details?id=com.bodunov.galileo)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 124, in parse_app
+    item['require'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][5]//span/text()').extract()[0]
+IndexError: list index out of range
+2018-04-27 12:24:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2> (referer: https://play.google.com/store/apps/details?id=com.bodunov.galileo)
+Traceback (most recent call last):
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 30, in process_spider_output
+    for x in result:
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "E:\ProgramData\Anaconda2\lib\site-packages\scrapy\spiders\crawl.py", line 78, in _parse_response
+    for requests_or_item in iterate_spider_output(cb_res):
+  File "E:\PycharmProjects\CrapyTest\GooglePlayCrawler-master\AppCrawler\AppCrawler\spiders\App.py", line 128, in parse_app
+    item['dev_web'] = response.xpath('//*[@id="fcxH9b"]//div[@class="hAyfc"][9]//span/div[1]/a/@href').extract()[0]
+IndexError: list index out of range
